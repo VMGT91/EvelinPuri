@@ -422,7 +422,11 @@
   <!-- Lightbox / Modal Nativo para Inspección de Obras -->
   <dialog class="artwork-dialog" id="artwork-dialog" aria-labelledby="dialog-title">
     <div class="dialog-inner">
-      <button class="dialog-close-btn" id="dialog-close-btn" aria-label="Cerrar ventana de detalle">&times;</button>
+      <button class="dialog-close-btn" id="dialog-close-btn" aria-label="Cerrar ventana de detalle">
+        <svg class="minimal-arrow-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M18 6L6 18M6 6l12 12"/>
+        </svg>
+      </button>
 
       <div class="dialog-layout">
         <!-- Visualizador de Imagen / Placeholder en Modal -->
@@ -467,8 +471,16 @@
           <div class="dialog-actions">
             <button class="btn btn-primary" id="dialog-inquire-btn">Consultar por esta Obra</button>
             <div class="dialog-nav-buttons">
-              <button class="btn-icon" id="dialog-prev-btn" aria-label="Obra anterior">&#8592;</button>
-              <button class="btn-icon" id="dialog-next-btn" aria-label="Obra siguiente">&#8594;</button>
+              <button class="btn-icon" id="dialog-prev-btn" aria-label="Vista anterior" title="Vista anterior">
+                <svg class="minimal-arrow-svg" viewBox="0 0 24 36" fill="none" stroke="currentColor" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M16 5L6 18l10 13"/>
+                </svg>
+              </button>
+              <button class="btn-icon" id="dialog-next-btn" aria-label="Siguiente vista" title="Siguiente vista">
+                <svg class="minimal-arrow-svg" viewBox="0 0 24 36" fill="none" stroke="currentColor" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M8 5l10 13-10 13"/>
+                </svg>
+              </button>
             </div>
           </div>
         </div>
