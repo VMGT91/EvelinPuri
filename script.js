@@ -104,6 +104,46 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // ================= SERIE ABSTRACTA (Web - Abstracta) =================
     {
+      id: 'abstracta-mito',
+      title: 'Mito',
+      series: 'Serie Abstracta',
+      category: 'abstractos',
+      year: '2025',
+      dimensions: '50 x 70 cm',
+      technique: 'Acrílico sobre bastidor',
+      support: 'Bastidor entelado',
+      status: 'Disponible',
+      image: './images/obras/Imagenes - WEB/Web - Abstracta/Abstracta - Mito (Vista 1).webp',
+      views: [
+        { label: 'Vista 1', src: './images/obras/Imagenes - WEB/Web - Abstracta/Abstracta - Mito (Vista 1).webp' },
+        { label: 'Detalle', src: './images/obras/Imagenes - WEB/Web - Abstracta/Abstracta - Mito (Detalle).webp' }
+      ],
+      images: [
+        './images/obras/Imagenes - WEB/Web - Abstracta/Abstracta - Mito (Vista 1).webp',
+        './images/obras/Imagenes - WEB/Web - Abstracta/Abstracta - Mito (Detalle).webp'
+      ],
+      description: 'Composición abstracta de contrastes profundos donde manchas gestuales en magenta, verde salvia, violeta y negro se superponen creando una trama orgánica de misterio y vibración cromática.'
+    },
+    {
+      id: 'abstracta-huellas',
+      title: 'Huellas',
+      series: 'Serie Abstracta',
+      category: 'abstractos',
+      year: '2026',
+      dimensions: '100 x 70 cm',
+      technique: 'Acrílico, óleo pastel y dorado a la hoja sobre bastidor',
+      support: 'Bastidor entelado',
+      status: 'Disponible',
+      image: './images/obras/Imagenes - WEB/Web - Abstracta/Abstracta - Huellas (Detalle).webp',
+      views: [
+        { label: 'Detalle', src: './images/obras/Imagenes - WEB/Web - Abstracta/Abstracta - Huellas (Detalle).webp' }
+      ],
+      images: [
+        './images/obras/Imagenes - WEB/Web - Abstracta/Abstracta - Huellas (Detalle).webp'
+      ],
+      description: 'Superficie luminosa y matérica en la que confluyen veladuras de rosa, violeta, borgoña y ocres cálidos junto a trazos de óleo pastel y destellos de dorado a la hoja sobre el lienzo.'
+    },
+    {
       id: 'abstracta-oculos',
       title: 'Óculos - políptico (cuatro partes)',
       series: 'Serie Abstracta',
