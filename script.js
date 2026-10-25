@@ -104,6 +104,29 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // ================= SERIE ABSTRACTA (Web - Abstracta) =================
     {
+      id: 'abstracta-oculos',
+      title: 'Óculos - políptico (cuatro partes)',
+      series: 'Serie Abstracta',
+      category: 'abstractos',
+      year: '2017',
+      dimensions: '40 x 40 cm c/u',
+      technique: 'Técnica mixta sobre bastidor de madera',
+      support: 'Bastidor de madera (políptico de 4 partes)',
+      status: 'Disponible',
+      image: './images/obras/Imagenes - WEB/Web - Abstracta/Abstracta - Óculus (Vista 1).webp',
+      views: [
+        { label: 'Vista 1', src: './images/obras/Imagenes - WEB/Web - Abstracta/Abstracta - Óculus (Vista 1).webp' },
+        { label: 'Vista 2', src: './images/obras/Imagenes - WEB/Web - Abstracta/Abstracta - Óculus (Vista 2).webp' },
+        { label: 'Detalle', src: './images/obras/Imagenes - WEB/Web - Abstracta/Abstracta - Óculus (Detalle).webp' }
+      ],
+      images: [
+        './images/obras/Imagenes - WEB/Web - Abstracta/Abstracta - Óculus (Vista 1).webp',
+        './images/obras/Imagenes - WEB/Web - Abstracta/Abstracta - Óculus (Vista 2).webp',
+        './images/obras/Imagenes - WEB/Web - Abstracta/Abstracta - Óculus (Detalle).webp'
+      ],
+      description: 'Políptico compuesto por cuatro módulos cuadrados donde ventanas circulares (óculos) enmarcan microcosmos orgánicos de texturas, veladuras y contrastes cromáticos entre ocres, carmines, azules profundos y amarillos solares.'
+    },
+    {
       id: 'abstracta-lagrimas',
       title: 'Lágrimas',
       series: 'Serie Abstracta',
@@ -124,8 +147,146 @@ document.addEventListener('DOMContentLoaded', () => {
       ],
       description: 'Composición vertical de gran potencia expresiva donde veladuras, grafismos en óleo pastel y campos de amarillo cadmio, carmín, turquesa y violeta generan un ritmo visual vibrante en diálogo con el espacio.'
     },
+    {
+      id: 'abstracta-formato-alargado',
+      title: 'Formato alargado',
+      series: 'Serie Abstracta',
+      category: 'abstractos',
+      year: '2023',
+      dimensions: '40 x 120 cm',
+      technique: 'Acrílico sobre papel',
+      support: 'Papel de alto gramaje',
+      status: 'Disponible',
+      image: './images/obras/Imagenes - WEB/Web - Abstracta/Abstracta - Formato alargado (Vista 1).webp',
+      views: [
+        { label: 'Vista 1', src: './images/obras/Imagenes - WEB/Web - Abstracta/Abstracta - Formato alargado (Vista 1).webp' },
+        { label: 'Vista 2', src: './images/obras/Imagenes - WEB/Web - Abstracta/Abstracta - Formato alargado (Vista 2).webp' },
+        { label: 'Vista 3', src: './images/obras/Imagenes - WEB/Web - Abstracta/Abstracta - Formato alargado (Vista 3).webp' },
+        { label: 'Detalle', src: './images/obras/Imagenes - WEB/Web - Abstracta/Abstracta - Formato alargado (Detalle).webp' }
+      ],
+      images: [
+        './images/obras/Imagenes - WEB/Web - Abstracta/Abstracta - Formato alargado (Vista 1).webp',
+        './images/obras/Imagenes - WEB/Web - Abstracta/Abstracta - Formato alargado (Vista 2).webp',
+        './images/obras/Imagenes - WEB/Web - Abstracta/Abstracta - Formato alargado (Vista 3).webp',
+        './images/obras/Imagenes - WEB/Web - Abstracta/Abstracta - Formato alargado (Detalle).webp'
+      ],
+      description: 'Obra apaisada de proporción panorámica donde planos profundos en negro y azul cobalto dialogan con irrupciones de magenta, ocre amarillo y trazos gestuales, ideal para acompañar recorridos arquitectónicos contemporáneos.'
+    },
+    {
+      id: 'abstracta-calidos',
+      title: 'Cálidos',
+      series: 'Serie Abstracta',
+      category: 'abstractos',
+      year: '2023',
+      dimensions: '60 x 50 cm',
+      technique: 'Acrílico sobre papel',
+      support: 'Papel de alto gramaje',
+      status: 'Disponible',
+      image: './images/obras/Imagenes - WEB/Web - Abstracta/Abstracta - Cálidos (Vista 1).webp',
+      views: [
+        { label: 'Vista 1', src: './images/obras/Imagenes - WEB/Web - Abstracta/Abstracta - Cálidos (Vista 1).webp' },
+        { label: 'Detalle', src: './images/obras/Imagenes - WEB/Web - Abstracta/Abstracta - Cálidos (Detalle).webp' }
+      ],
+      images: [
+        './images/obras/Imagenes - WEB/Web - Abstracta/Abstracta - Cálidos (Vista 1).webp',
+        './images/obras/Imagenes - WEB/Web - Abstracta/Abstracta - Cálidos (Detalle).webp'
+      ],
+      description: 'Exploración cromática en clave ígnea donde capas de bermellón, naranja, magenta y ocre se entrelazan con acentos en violeta profundo y grafismos espontáneos que aportan calidez y vibración matérica.'
+    },
+    {
+      id: 'abstracta-neutros-y-dorados',
+      title: 'Neutros y dorados',
+      series: 'Serie Abstracta',
+      category: 'abstractos',
+      year: '2025',
+      dimensions: '80 x 130 cm',
+      technique: 'Acrílico sobre bastidor',
+      support: 'Bastidor entelado',
+      status: 'No Disponible',
+      image: './images/obras/Imagenes - WEB/Web - Abstracta/Abstracta - Neutros y dorados (Vista 1).webp',
+      views: [
+        { label: 'Vista 1', src: './images/obras/Imagenes - WEB/Web - Abstracta/Abstracta - Neutros y dorados (Vista 1).webp' },
+        { label: 'Vista 2', src: './images/obras/Imagenes - WEB/Web - Abstracta/Abstracta - Neutros y dorados (Vista 2).webp' },
+        { label: 'Vista 3', src: './images/obras/Imagenes - WEB/Web - Abstracta/Abstracta - Neutros y dorados (Vista 3).webp' }
+      ],
+      images: [
+        './images/obras/Imagenes - WEB/Web - Abstracta/Abstracta - Neutros y dorados (Vista 1).webp',
+        './images/obras/Imagenes - WEB/Web - Abstracta/Abstracta - Neutros y dorados (Vista 2).webp',
+        './images/obras/Imagenes - WEB/Web - Abstracta/Abstracta - Neutros y dorados (Vista 3).webp'
+      ],
+      description: 'Atmósfera envolvente y sutil construida a partir de veladuras orgánicas en tonos piedra, marfil, grises cálidos y destellos ocres y dorados que dialogan con la luz natural del espacio.'
+    },
+    {
+      id: 'abstracta-neutros',
+      title: 'Neutros',
+      series: 'Serie Abstracta',
+      category: 'abstractos',
+      year: '2026',
+      dimensions: '110 x 110 cm',
+      technique: 'Acrílico sobre bastidor',
+      support: 'Bastidor entelado',
+      status: 'No Disponible',
+      image: './images/obras/Imagenes - WEB/Web - Abstracta/Abstracta - Neutros (Vista).webp',
+      views: [
+        { label: 'Vista', src: './images/obras/Imagenes - WEB/Web - Abstracta/Abstracta - Neutros (Vista).webp' },
+        { label: 'Detalle', src: './images/obras/Imagenes - WEB/Web - Abstracta/Abstracta - Neutros (Detalles).webp' }
+      ],
+      images: [
+        './images/obras/Imagenes - WEB/Web - Abstracta/Abstracta - Neutros (Vista).webp',
+        './images/obras/Imagenes - WEB/Web - Abstracta/Abstracta - Neutros (Detalles).webp'
+      ],
+      description: 'Composición de gran formato donde la mancha suelta en tonos arena, rosa pálido, marfil y azul agrisado se articula con gestos lineales orgánicos, logrando un equilibrio sereno y luminoso.'
+    },
 
     // ================= SERIE BOTÁNICA (Web - Botánica) =================
+    {
+      id: 'botanica-colores-al-viento',
+      title: 'Colores al viento',
+      series: 'Serie Botánica',
+      category: 'botanicos',
+      year: '2017',
+      dimensions: '110 x 110 cm',
+      technique: 'Acrílico sobre bastidor',
+      support: 'Bastidor entelado',
+      status: 'No Disponible',
+      image: './images/obras/Imagenes - WEB/Web - Botánica/Botánica - Colores al viento (Vista 1).webp',
+      views: [
+        { label: 'Vista 1', src: './images/obras/Imagenes - WEB/Web - Botánica/Botánica - Colores al viento (Vista 1).webp' },
+        { label: 'Vista 2', src: './images/obras/Imagenes - WEB/Web - Botánica/Botánica - Colores al viento (Vista 2).webp' },
+        { label: 'Vista 3', src: './images/obras/Imagenes - WEB/Web - Botánica/Botánica - Colores al viento (Vista 3).webp' }
+      ],
+      images: [
+        './images/obras/Imagenes - WEB/Web - Botánica/Botánica - Colores al viento (Vista 1).webp',
+        './images/obras/Imagenes - WEB/Web - Botánica/Botánica - Colores al viento (Vista 2).webp',
+        './images/obras/Imagenes - WEB/Web - Botánica/Botánica - Colores al viento (Vista 3).webp'
+      ],
+      description: 'Dinamismo botánico en formato cuadrado donde hojas facetadas, inflorescencias y tallos son mecidos por una corriente cromática de tierras, ocres, carmines y verdes intensos.'
+    },
+    {
+      id: 'botanica-ave-del-paraiso',
+      title: 'Ave del paraíso',
+      series: 'Serie Botánica',
+      category: 'botanicos',
+      year: '2021',
+      dimensions: '70 x 120 cm',
+      technique: 'Acrílico sobre bastidor',
+      support: 'Bastidor entelado',
+      status: 'No Disponible',
+      image: './images/obras/Imagenes - WEB/Web - Botánica/Botánica - Aves del paraíso (Vista 1).webp',
+      views: [
+        { label: 'Vista 1', src: './images/obras/Imagenes - WEB/Web - Botánica/Botánica - Aves del paraíso (Vista 1).webp' },
+        { label: 'Vista 2', src: './images/obras/Imagenes - WEB/Web - Botánica/Botánica - Aves del paraíso (Vista 2).webp' },
+        { label: 'Vista 3', src: './images/obras/Imagenes - WEB/Web - Botánica/Botánica - Aves del paraíso (Vista 3).webp' },
+        { label: 'Detalle', src: './images/obras/Imagenes - WEB/Web - Botánica/Botánica - Aves del Paraíso (Detalle).webp' }
+      ],
+      images: [
+        './images/obras/Imagenes - WEB/Web - Botánica/Botánica - Aves del paraíso (Vista 1).webp',
+        './images/obras/Imagenes - WEB/Web - Botánica/Botánica - Aves del paraíso (Vista 2).webp',
+        './images/obras/Imagenes - WEB/Web - Botánica/Botánica - Aves del paraíso (Vista 3).webp',
+        './images/obras/Imagenes - WEB/Web - Botánica/Botánica - Aves del Paraíso (Detalle).webp'
+      ],
+      description: 'Exuberancia floral y movimiento envolvente: cálidos amarillos, naranjas, corales y verdes botánicos despliegan la silueta orgánica de las flores sobre el lienzo apaisado.'
+    },
     {
       id: 'botanica-palo-borracho',
       title: 'Palo Borracho',
@@ -146,6 +307,25 @@ document.addEventListener('DOMContentLoaded', () => {
         './images/obras/Imagenes - WEB/Web - Botánica/Seria Botánica - Palo borracho (Detalle).webp'
       ],
       description: 'Exaltación de la flora nativa donde la corteza espinosa del palo borracho, las pencas agaváceas y la delicadeza de su flor rosada se recortan sobre un fondo vibrante de amarillos y rojos solares.'
+    },
+    {
+      id: 'botanica-lluvia-de-fuego',
+      title: 'Lluvia de Fuego',
+      series: 'Serie Botánica',
+      category: 'botanicos',
+      year: '2023',
+      dimensions: '70 x 90 cm',
+      technique: 'Acrílico y óleo pastel sobre lienzo',
+      support: 'Bastidor de lienzo',
+      status: 'Disponible',
+      image: './images/obras/Imagenes - WEB/Web - Botánica/Botánica - Lluvia de fuego .webp',
+      views: [
+        { label: 'Vista', src: './images/obras/Imagenes - WEB/Web - Botánica/Botánica - Lluvia de fuego .webp' }
+      ],
+      images: [
+        './images/obras/Imagenes - WEB/Web - Botánica/Botánica - Lluvia de fuego .webp'
+      ],
+      description: 'Sobre una atmósfera nocturna de azules profundos, cobalto y turquesas, ramas e inflorescencias encendidas en rojo y naranja caen como destellos incandescentes en óleo pastel y acrílico.'
     },
 
     // ================= PAISAJES CONTEMPORÁNEOS (Web - Paisaje contemporáneo) =================
