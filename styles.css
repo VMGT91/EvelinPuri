@@ -1180,11 +1180,18 @@ a {
 
 .commissions-image-col {
   position: relative;
-  aspect-ratio: 16 / 10;
+  background: var(--bg-surface);
+  padding: 10px 10px 12px;
   border-radius: var(--radius-sm);
-  overflow: hidden;
   box-shadow: var(--shadow-md);
   border: 1px solid var(--border-light);
+}
+
+.commissions-image-frame {
+  position: relative;
+  aspect-ratio: 16 / 10;
+  border-radius: var(--radius-xs);
+  overflow: hidden;
   background: #f0eee9;
 }
 
@@ -1194,6 +1201,16 @@ a {
   object-fit: cover;
   object-position: center center;
   transition: transform var(--transition-slow);
+}
+
+.commissions-caption {
+  display: block;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-top: 10px;
+  text-align: center;
+  font-style: italic;
+  font-family: var(--font-serif);
 }
 
 .commissions-card:hover .commissions-portrait {
