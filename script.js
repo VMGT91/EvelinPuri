@@ -372,6 +372,29 @@ document.addEventListener('DOMContentLoaded', () => {
         './images/obras/Imagenes - WEB/Web - Paisaje contemporáneo/Paisajes contemporáneos - Ciudad de ilusiones (Detalle).webp'
       ],
       description: 'Arquitectura onírica y geometría sensible. Escalinatas, arcos y volúmenes suspendidos en una atmósfera crepuscular de violetas, ocres y rosas que invitan a contemplar territorios imaginarios.'
+    },
+    {
+      id: 'paisajes-mezquita-omeya',
+      title: 'Mezquita Omeya',
+      series: 'Paisajes Contemporáneos',
+      category: 'paisajes-contemporaneos',
+      year: '2018',
+      dimensions: '90 x 240 cm',
+      technique: 'Acrílico sobre bastidor - políptico',
+      support: 'Bastidor entelado (políptico de 4 partes)',
+      status: 'No Disponible',
+      image: './images/obras/Imagenes - WEB/Web - Paisaje contemporáneo/mezquita omeya 2018.jpg',
+      views: [
+        { label: 'Vista 1', src: './images/obras/Imagenes - WEB/Web - Paisaje contemporáneo/mezquita omeya 2018.jpg' },
+        { label: 'Vista 2', src: './images/obras/Imagenes - WEB/Web - Paisaje contemporáneo/Paisajes contemporáneos - Mezquita Omeya (Vista 2).webp' },
+        { label: 'Vista 3', src: './images/obras/Imagenes - WEB/Web - Paisaje contemporáneo/Paisajes contemporáneos - Mezquita Omeya (Vista 3).webp' }
+      ],
+      images: [
+        './images/obras/Imagenes - WEB/Web - Paisaje contemporáneo/mezquita omeya 2018.jpg',
+        './images/obras/Imagenes - WEB/Web - Paisaje contemporáneo/Paisajes contemporáneos - Mezquita Omeya (Vista 2).webp',
+        './images/obras/Imagenes - WEB/Web - Paisaje contemporáneo/Paisajes contemporáneos - Mezquita Omeya (Vista 3).webp'
+      ],
+      description: 'Políptico monumental de cuatro paneles que recrea la majestuosidad arquitectónica y lumínica del patio de la Mezquita Omeya al atardecer, donde el cielo violáceo dialoga con los reflejos dorados sobre el mármol.'
     }
   ];
 
